@@ -1,0 +1,41 @@
+.data-box{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: $White;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;       
+    img{
+        margin:10px 0;
+        width: 40px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 35px;
+        margin: 0 auto;
+        color: $Dark-Slate-Grey;
+    }
+    p{
+        span{
+            color: $Dark-Slate-Grey;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+    button{      
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: $Dark-Slate-Grey;
+        color: $White;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: $Tomato ;
+        border: none;
+    }
+}
